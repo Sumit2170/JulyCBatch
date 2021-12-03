@@ -14,12 +14,7 @@ public class Base {
 	}
 	
 	    
-	public WebDriver openFirefoxBrowser() // 
-	{
-		 System.setProperty("webdriver.gecko.driver","D:\\Firefox Driver\\geckodriver.exe");
-		      WebDriver driver = new FirefoxDriver();
-	            return driver;   //
-	}
+
 
 
 }
