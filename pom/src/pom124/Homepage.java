@@ -13,10 +13,10 @@ public class Homepage {
 	private WebDriverWait wait;
 
 	  @FindBy(xpath="//span[text()='login / register']")
-	  private WebElement login;
+	  private WebElement login ajit;
 	  
 	  @FindBy(xpath="(//div[@class='tile-img-tag'])[1]")
-	  private WebElement mobileIcon ;
+	  private WebElement mobileIcon sumit ;
 	  
 	  public Homepage (WebDriver driver) {
 		  this.driver = driver;
@@ -24,7 +24,7 @@ public class Homepage {
 		  PageFactory.initElements(driver,this);
 	  }
 	  
-	  public void clickOnLogin() {
+	  public void clickOnLogin ramesh() {
 		  wait.until(ExpectedConditions.visibilityOf( login));
 		  login.click();
 	     //mobileIcon.click();
