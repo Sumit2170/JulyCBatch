@@ -38,7 +38,7 @@ public class Homepage {
 	        
 	}
 	
-	public void logoutFromActitime () {
+	public void logoutFromSumitBhosale () {
 		
 	}
 	  
